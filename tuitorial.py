@@ -28,7 +28,7 @@ class MyWindow(QMainWindow):
 	def b1_clicked(self):
 		self.label.setText('You pressed the button')
 		self.update()
-
+	# Chages size to accomidate for wider label
 	def update(self):
 		self.label.adjustSize()
 
